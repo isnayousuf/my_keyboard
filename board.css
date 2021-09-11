@@ -1,0 +1,288 @@
+main{
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+    row-gap: 0.2em ;
+    border: 2px solid black;
+    background-color: rgb(17, 12, 12);
+  
+}
+div{
+    border-right: hidden;
+}
+.first-row-keys{
+    display: inline-flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+section{
+    margin-right: 0.5rem;
+    margin-left: 0.5em;
+    width: 2rem;
+    color: cyan;
+    max-width: auto;
+    height: 2rem;
+    padding: 0.2rem;
+    box-shadow: 0.5rem 0.5rem black;
+    border: 1px solid rgb(75, 69, 69);  /*or 75 69 11*/
+    border-radius:  0.2rem;
+    text-align: center;
+}
+.first-one{
+    display: block;
+}
+.first-row-end{
+    border: none;
+    display: inline-flex;
+}
+.first-row-end section{
+    width: 3.3rem ; 
+
+}
+.first-special{
+    border: none;
+    display: inline-flex;
+}
+.first-special section{
+    width: 2.5rem;
+   
+}
+.sound-only{
+    font-size: 25px;
+}
+
+.second-row{
+    display: inline-flex;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    
+
+}
+.second-row section{
+    padding: 0.5rem;
+}
+.second-special{
+    display: inline;
+}
+.tidle{
+    font-size: 1.5;
+    font-weight: bolder;
+}
+.backspace{
+    width: 8rem;
+    position: relative;
+    left: 0.2rem;
+}
+.numlock{
+    width:2.5rem;
+}
+.third-row{
+    display: grid;
+    grid-template-columns: repeat(80, 1fr);
+    grid-template-rows: 76px;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+   
+}
+.third-inner{
+    grid-column: 1 / 80;
+    grid-row: 1 / 2;
+
+}
+.third-inner section{
+    display: inline-flex;
+}
+.third-row section{
+    padding: 0.5rem;
+
+}
+
+.eight{
+    margin-left: 0.1rem;
+}
+.nine{
+    margin-left: 0.2rem;
+}
+.tab{
+    width: 4.5rem;
+}
+.slash{
+    width: 3rem;
+    margin-left: 0;
+    padding: 0;
+}
+.plus{
+    height: 7.2rem;
+    
+   position: relative;
+   bottom: 3.1rem;
+   left: 76.8rem;
+}
+
+.fourth-row{
+    display: inline-flex;
+    margin-top: 0;
+    margin-bottom: 1rem;
+   
+}
+
+.fourth-row section{
+    padding: 0.5rem;
+}
+.capslk{
+    width: 6.5em;
+}
+.enter{
+    width: 6.7rem;
+    position: relative;
+    right: 0.4rem;
+}
+.four{
+   position: relative;
+   right:0.2rem;
+}
+.fifth-row{
+    display: grid;
+    grid-template-columns: repeat(80, 1fr);
+    grid-template-rows: 76px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+.fifth-inner{
+    grid-column: 1 / 80;
+    grid-row: 1 / 1;
+
+}
+.fifth-inner section{
+    display: inline-flex;
+}
+
+.fifth-row section{
+    padding: 0.5rem;
+}
+.shift1{
+    width: 7rem;
+}
+.shift2{
+    width: 8rem;
+    position: relative;
+    left: 1rem;
+}
+.one{
+    position: relative;
+    left:1rem;
+}
+.two{
+    position: relative;
+    left:1rem;
+
+}
+.three{
+    position: relative;
+    left:1rem;
+
+}
+
+.enter2{
+    height: 7.9rem;
+    margin-left: 0.6rem;
+    position: relative;
+    bottom: 3.1rem;
+    left: 76.9rem;
+
+}
+
+
+.sixth-row{
+    display: inline-flex;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.sixth-row section{
+    height: 3.5em;
+}
+    
+
+.control1{
+    width: 5em;
+}
+.blue-key{
+    color: rgb(15, 35, 218);
+    width: 2.5rem;
+    /* box-shadow: 5px 10px black; */
+  
+}
+
+.alt1{
+    width: 4rem;
+    position: relative;
+    right: 0.2rem;
+}
+.home{
+    width: 3rem;
+    position: relative;
+    right: 0.2rem;
+}
+.spacebar{
+    width: 19rem;
+}
+.alt2{
+    width: 3rem;
+}
+.control2{
+    width: 3.5rem;
+}
+.arrows{
+    width: 11.5rem;
+}
+#left-arrow{
+    width: 3rem;
+    height: 1.5rem;
+    position:relative;
+    left: 1rem;
+    top: 0.6rem;
+}
+#top-arrow{
+    width: 3rem;
+    height: 1.5rem;
+    position: relative;
+    left: 0.7rem;
+    bottom: 1rem;
+
+}
+#bottom-arrow{
+    width: 3rem;
+    height: 1.5rem;
+    position: relative;
+    right: 3.7rem;
+    top: 2rem;
+    
+}
+#right-arrow{
+    width: 3rem;
+    height: 1.5rem;
+    position: relative;
+    right: 4rem;
+    top: 0.6rem;
+}
+
+
+.zero{
+    width: 7rem;
+    position: relative;
+    right: 4rem;
+   
+}
+.dlt{
+   width: 2.5rem;
+   position: relative;
+   right: 4rem;
+   
+    
+}
+section:hover{
+    box-shadow: 0.3rem 0.3rem black;
+
+    z-index: 3;
+}
